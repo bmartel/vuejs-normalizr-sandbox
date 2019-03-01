@@ -1,7 +1,7 @@
 <template>
-  <section class="">
+  <section class="flex flex-col w-100">
     <no-ssr> <json-editor :objData="raw" v-model="raw"></json-editor> </no-ssr>
-    <pre>{{ preview }}</pre>
+    <pre class="w-100 flex">{{ preview }}</pre>
   </section>
 </template>
 
