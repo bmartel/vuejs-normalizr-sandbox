@@ -1,0 +1,22 @@
+{
+  "name": "vuejs-normalizr-sandbox",
+  "version": "1.0.0",
+  "description": "VueJS Normalizr Sandbox",
+  "author": "Atinux",
+  "private": true,
+  "scripts": {
+    "dev": "MINIMAL=1 CSB=1 nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "post-update": "yarn upgrade --latest"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "normalizr": "^3.3.0",
+    "nuxt": "^2.4.3",
+    "reqlim": "^0.0.0",
+    "vue-json-edit": "^1.1.5"
+  },
+  "keywords": []
+}
